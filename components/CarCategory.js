@@ -292,7 +292,7 @@ const CarCategory = () => {
               }))
             }
             placeholder="Durum, özellik ve satma nedeni gibi bilgileri ekle"
-            cols="41"
+            cols="37"
             className="h-40 resize-none border  rounded-lg border-black p-2 focus-within:outline-blue-700 focus-within:border-2"
             type="text"
           />

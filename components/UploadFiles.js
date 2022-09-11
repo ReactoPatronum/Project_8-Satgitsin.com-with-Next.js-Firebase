@@ -31,7 +31,6 @@ const UploadFiles = ({ images, setImages }) => {
       <div className="flex items-center">
         <input
           ref={ref}
-          hidden
           type="file"
           multiple
           accept="image/*"
