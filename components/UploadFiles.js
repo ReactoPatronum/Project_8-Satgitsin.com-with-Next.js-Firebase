@@ -32,7 +32,6 @@ const UploadFiles = ({ images, setImages }) => {
         <input
           ref={ref}
           type="file"
-          multiple
           accept="image/*"
           onChange={handleImage}
         />
