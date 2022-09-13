@@ -30,9 +30,9 @@ const UploadFiles = ({ images, setImages }) => {
       <h2 className="text-lg ">8 Adete Kadar Fotoğraf Yükleyebilirsin*</h2>
       <div className="flex items-center">
         <input
+          hidden
           ref={ref}
           type="file"
-          accept="image/*"
           onChange={handleImage}
         />
         <button
