@@ -10,7 +10,6 @@ const LastCheck = ({ userInfo, setUserInfo }) => {
   const NightMode = () => {
     setUserInfo((current) => ({ ...current, emergency: !userInfo.emergency }));
   };
-  console.log(userInfo.emergency);
   return (
     <div>
       <h2 className="my-6">BİLGİLERİNİ GÖZDEN GEÇİR</h2>

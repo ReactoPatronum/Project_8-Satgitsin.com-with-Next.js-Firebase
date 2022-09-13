@@ -8,7 +8,6 @@ const Advert = () => {
   const { car, electronics, setCar, setElectronics } = useCategories();
   const router = useRouter();
 
-  console.log(car, electronics);
   return (
     <main className="max-w-5xl mx-auto  p-6 ">
       <h1 className="text-center text-xl  md:text-3xl font-semibold">İLAN YAYINLA</h1>

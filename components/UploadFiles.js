@@ -14,7 +14,6 @@ const UploadFiles = ({ images, setImages }) => {
     setImages((current) => current.filter((item) => item.name !== image.name));
   };
 
-  console.log("images", images, "imageURL", imageURL);
   useEffect(() => {
     setImageURL([]);
     images.map((image) =>
@@ -29,12 +28,7 @@ const UploadFiles = ({ images, setImages }) => {
     <div className="space-y-2 ">
       <h2 className="text-lg ">8 Adete Kadar Fotoğraf Yükleyebilirsin*</h2>
       <div className="flex items-center">
-        <input
-          hidden
-          ref={ref}
-          type="file"
-          onChange={handleImage}
-        />
+        <input multiple hidden ref={ref} type="file" onChange={handleImage} />
         <button
           className="ml-2 p-2 px-5 text-white rounded-md font-semibold transition-all duration-150 hover:bg-blue-600 bg-[#007bff]"
           onClick={() => ref.current.click()}

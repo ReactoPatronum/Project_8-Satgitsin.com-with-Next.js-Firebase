@@ -84,7 +84,6 @@ export const SendCarAd = async (
           storage,
           `images/${sendDocumentUser.id}/${v4()}`
         );
-        console.log("imgg", image, i);
         await uploadBytes(imageRef, image).then(() => {
           toast.success(
             `"Resim Yükleniyor" ${images.length - i} / ${images.length}`
