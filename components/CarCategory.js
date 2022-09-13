@@ -261,7 +261,7 @@ const CarCategory = () => {
                 title: e.target.value.slice(0, 70),
               }))
             }
-            placeholder="Ürününün temel özelliklerinden bahset"
+            placeholder="Ürününün temel özelliklerinden bahset.."
             className="border h-10 w-[295px] rounded-lg border-black p-2 focus-within:outline-blue-700 focus-within:border-2"
             type="text"
           />
